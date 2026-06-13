@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "229136398865",
+    "firebase_url": "https://bulutbilisim-2b61c-default-rtdb.firebaseio.com",
+    "project_id": "bulutbilisim-2b61c",
+    "storage_bucket": "bulutbilisim-2b61c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229136398865:android:f102ec383bc3ef6c67cfb0",
+        "android_client_info": {
+          "package_name": "com.example.sunucu_odasi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7sxhNLWhX4HFJkS41A2GdR6ClkAW_0zE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
