@@ -1,17 +1,2 @@
-# sunucu_odasi
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+🛡️ Akıllı Sunucu Odası ve Veri Merkezi İzleme SistemiBu proje, veri merkezleri ve kurumsal sunucu odalarındaki çevresel ve elektriksel parametrelerin 7/24 kesintisiz izlenmesi amacıyla geliştirilmiş IoT tabanlı bir güvenlik ve telemetri sistemidir.Sistem, fiziksel ortamdaki değişimleri anlık olarak algılayarak, donanım arızalarını henüz gerçekleşmeden proaktif bir şekilde tespit etmekte ve yöneticilere çoklu platformlar üzerinden raporlamaktadır.🚀 Kullanılan DonanımlarDeneyap Kart 1A v2: Ana mikrodenetleyici ve bulut haberleşme birimi.Deneyap Sıcaklık ve Nem Sensörü: İklimlendirme denetimi.Mikrofon Sensörü: Fan arızaları için akustik izleme.PZEM-004T: Anlık enerji tüketim (Volt, Akım, Watt) ölçümü.Mini OLED Ekran: Lokal veri gösterimi.Breadboard ve Jumper Kablolar: Prototip bağlantı birimleri.💻 Kullanılan Yazılımlar ve TeknolojilerFirmware: Arduino IDE (C/C++)Gateway: PythonMobil/Web Arayüz: Flutter (Dart)Veritabanı: Google Firebase Realtime DatabaseBildirim: Telegram Bot API & Firebase Cloud Messaging (FCM)Deployment: Netlify🔑 Sistem ÖzellikleriGerçek Zamanlı Telemetri: Sıcaklık, nem, ses ve enerji verilerinin anlık takibi.Proaktif Uyarı Sistemi: Kritik eşik aşıldığında Telegram ve Push bildirimleri ile acil durum bilgilendirmesi.Çapraz Platform Desteği: Flutter sayesinde Android ve Web üzerinden aynı anda izleme.Hata Toleransı: Python Gateway katmanı ile veri kayıplarını önleyen yerel loglama mekanizması.Görselleştirme: Canlı grafiklerle anlık enerji tüketim ve ortam analizi.📂 Proje DosyalarıDosyaAçıklamaArduino_Code.inoDeneyap Kart üzerindeki sensör okuma ve Wi-Fi haberleşme kodudata_gateway.pyPython tabanlı seri port dinleme ve Firebase veri aktarım kodusunucu_odasi_appFlutter mobil ve web projesi kaynak kodlarıRapor.pdfDetaylı proje bitirme raporu📊 Sistem MimarisiSistem; Sensörler $\rightarrow$ Deneyap Kart $\rightarrow$ Python Gateway $\rightarrow$ Firebase $\rightarrow$ Flutter/Telegram veri hattını izler. Deneyap Kart'tan gelen ham veriler, Python tabanlı bir Gateway üzerinden işlenerek Firebase'e aktarılır. Buradan tetiklenen veriler, hem canlı mobil/web arayüzlerine yansıtılır hem de acil durumlarda Telegram botu üzerinden yöneticiye bildirim olarak iletilir.👨‍💻 Geliştirici Muhammet Melih DEMİRCİ (Yönetim Bilişim Sistemleri)
+Semanur GÜVEN (Yönetim Bilişim Sistemleri)⚠️ Güvenlik NotuBu repoda güvenlik amacıyla aşağıdaki kritik bilgiler paylaşılmamıştır:Firebase API anahtarları ve servis hesabı bilgileriTelegram Bot Token ve Chat ID bilgileriSunucu ağına ait özel erişim bilgileriBu proje, Bilecik Şeyh Edebali Üniversitesi YBS464 Bitirme Projesi kapsamında geliştirilmiştir.
