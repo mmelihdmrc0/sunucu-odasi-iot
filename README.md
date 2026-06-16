@@ -104,12 +104,12 @@ Sistem, fiziksel ortamdaki değişimleri anlık olarak algılayarak, donanım ar
 
 ## 📂 Proje Dosyaları
 
-| **Dosya** | **Açıklama** |
-
--| Arduino_Code.ino | Deneyap Kart üzerindeki sensör okuma ve Wi-Fi haberleşme kodu |
--| data_gateway.py | Python tabanlı seri port dinleme ve Firebase veri aktarım kodu |
--| sunucu_odasi_app | Flutter mobil ve web projesi kaynak kodları |
--| Rapor.pdf | Detaylı proje bitirme raporu |
+| Dosya / Klasör | Açıklama |
+| :--- | :--- |
+| `Arduino_Code.ino` | Deneyap Kart üzerindeki sensör okuma ve Wi-Fi haberleşme kodu. |
+| `data_gateway.py` | Python tabanlı seri port dinleme ve Firebase veri aktarım kodu. |
+| `sunucu_odasi_app` | Flutter mobil ve web projesi kaynak kodları. |
+| `Rapor.pdf` | Detaylı proje bitirme raporu. |
 
 ## 📊 Sistem Mimarisi
 
