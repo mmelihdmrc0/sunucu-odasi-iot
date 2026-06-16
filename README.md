@@ -40,7 +40,7 @@ By detecting physical environmental changes in real-time, the system proactively
 | `Arduino_Code.ino` | Firmware code running on Deneyap Kart for sensor data acquisition and Wi-Fi data streaming. |
 | `data_gateway.py` | Python-based gateway script for serial port (UART) listening and Firebase data synchronization. |
 | `sunucu_odasi_app` | Source code for the Flutter-based mobile and web client application. |
-| `bulut_bilişim_rapor (!).pdf` | Detailed project graduation/capstone engineering report. |
+| `bulut_bilişim_rapor (1).pdf` | Detailed project graduation/capstone engineering report. |
 
 
 ## 📊 System Architecture
@@ -109,7 +109,7 @@ Sistem, fiziksel ortamdaki değişimleri anlık olarak algılayarak, donanım ar
 | `Arduino_Code.ino` | Deneyap Kart üzerindeki sensör okuma ve Wi-Fi haberleşme kodu. |
 | `data_gateway.py` | Python tabanlı seri port dinleme ve Firebase veri aktarım kodu. |
 | `sunucu_odasi_app` | Flutter mobil ve web projesi kaynak kodları. |
-| `bulut_bilişim_rapor (!).pdf` | Detaylı proje bitirme raporu. |
+| `bulut_bilişim_rapor (1).pdf` | Detaylı proje bitirme raporu. |
 
 ## 📊 Sistem Mimarisi
 
